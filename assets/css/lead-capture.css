@@ -1,0 +1,101 @@
+#bm-lead-capture {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(0,0,0,.8);
+    display: flex;
+    justify-content: center;
+}
+
+#capture-body {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#popup-heading {
+    color: white;
+    text-align: center;
+    font-size: 72px;
+}
+
+#popup-subheading {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 52px;
+    text-align: center;
+}
+
+#popup-buttons {
+    padding-left: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#popup-buttons li {
+    cursor: pointer;
+    vertical-align: middle;
+    display: inline-block;
+    background: white;
+    width: 250px;
+    padding: 25px 0;
+    border-radius: 3px;
+}
+
+#popup-buttons li:first-of-type {
+    margin-right: 15px;
+}
+
+#popup-buttons li:last-of-type {
+    margin-left: 15px;
+}
+
+#popup-buttons .yes-text, #popup-buttons .no-text {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+#form-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#form-container #lc-email {
+    width: 99.2%;
+    line-height: 35px;
+}
+
+#form-container #lc-capture {
+    width: 100%;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+#step-two #final-step {
+    text-align: center;
+}
+
+#step-two #final-heading {
+    color: white;
+    text-align: center;
+    font-size: 72px;
+}
+
+#step-two #final-message {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 52px;
+    text-align: center;
+}
+
+#step-two #lc-close {
+    cursor: pointer;
+    position: relative;
+    bottom: 25px;
+    font-size: 72px;
+}

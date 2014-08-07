@@ -1,0 +1,35 @@
+<div id="capture-body">
+    <div id="step-one">
+        <h1 id="popup-heading"></h1>
+        <h3 id="popup-subheading"></h3>
+        <ul id="popup-buttons">
+            <li id="yes">
+                <a>
+                    <div class="yes-text">Yes</div>
+                    <div id="yes-msg"></div>
+                </a>
+            </li>
+            <li id="no">
+                <a>
+                    <div class="no-text">No</div>
+                    <div id="no-msg"></div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="step-two" style="display: none;">
+        <div id="lc-close">x</div>
+        <div id="final-step">
+            <h1 id="final-heading"></h1>
+            <h3 id="final-message"></h3>
+        </div>
+        <div id="form-container">
+            <form id="emailCapture" action="" method="post">
+                <input type="text" id="lc-email" name="email">
+                <input type="hidden" name="action" value="captureLead">
+                <input type="submit" id="lc-capture">
+            </form>
+            <div class="status"></div>
+        </div>
+    </div>
+</div>
